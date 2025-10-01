@@ -7,7 +7,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy hello.py into the container
-COPY hello.py .
+COPY Hello.py .
 
 # Run the Python script when container starts
-CMD ["python", "hello.py"]
+CMD ["python", "Hello.py"]
